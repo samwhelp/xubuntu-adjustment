@@ -27,7 +27,7 @@ rofi
 ## ## Package / Tool / Terminal
 ##
 
-xfce-terminal
+xfce4-terminal
 sakura
 
 
