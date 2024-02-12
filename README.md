@@ -11,7 +11,18 @@
 
 ## Subject
 
+* [Adjustment](#adjustment)
 * [Link](#link)
+
+
+
+
+## Adjustment
+
+| Adjustment |
+| ---------- |
+| [24.04](https://github.com/samwhelp/xubuntu-adjustment/tree/main/prototype/main/xfce-config/Main) |
+
 
 
 
