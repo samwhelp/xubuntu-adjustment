@@ -5,43 +5,64 @@
 
 
 
-## Howto
+## Usage
 
 
 ### install
 
+run
+
 ``` sh
-$ ./install.sh
+./install.sh
 ```
 
-or
+or run
 
 ``` sh
-$ make install
+make install
 ```
 
 
 ### package-install
 
+run
+
 ``` sh
-$ ./package-install.sh
+./package-install.sh
 ```
 
-or
+or run
 
 ``` sh
-$ make package-install
+make package-install
+```
+
+
+### asset-install
+
+run
+
+``` sh
+./asset-install.sh
+```
+
+or run
+
+``` sh
+make asset-install
 ```
 
 
 ### config-install
 
+run
+
 ``` sh
-$ ./config-install.sh
+./config-install.sh
 ```
 
-or
+or run
 
 ``` sh
-$ make config-install
+make config-install
 ```
