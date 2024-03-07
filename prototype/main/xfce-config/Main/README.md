@@ -5,6 +5,15 @@
 
 
 
+## Ubuntu Package
+
+| Ubuntu Package |
+| --- |
+| [xfce4](https://packages.ubuntu.com/noble/xfce4) |
+
+
+
+
 ## Usage
 
 
