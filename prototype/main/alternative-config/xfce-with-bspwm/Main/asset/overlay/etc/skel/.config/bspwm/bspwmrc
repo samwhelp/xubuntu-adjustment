@@ -1,0 +1,200 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Note
+##
+
+## * https://github.com/samwhelp/skel-project-plan/blob/gh-pages/demo/sh/project/bin/install.sh
+
+##
+### Tail: Note
+################################################################################
+
+
+################################################################################
+### Head: Init
+##
+
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Skel / Init
+##
+
+skel_init () {
+
+	xsetroot -cursor_name left_ptr
+
+}
+
+##
+### Tail: Skel / Init
+################################################################################
+
+
+################################################################################
+### Head: Skel / Theme
+##
+
+skel_theme () {
+	main_theme_setting
+}
+
+main_theme_setting () {
+
+
+	# theme
+	#bspc monitor -d File Edit Web Term Misc
+	bspc monitor -d 1 2 3 4 5
+
+	bspc config border_width          4
+	bspc config window_gap            8
+
+	bspc config split_ratio           0.5
+
+	bspc config borderless_monocle    true
+	bspc config gapless_monocle       true
+	bspc config single_monocle        false
+	bspc config focus_follows_pointer false
+
+	bspc config normal_border_color   "#a3be8c"
+	bspc config active_border_color   "#b48ead"
+	bspc config focused_border_color  "#bf616a"
+	bspc config presel_feedback_color "#b48ead"
+
+
+}
+
+##
+### Tail: Skel / Theme
+################################################################################
+
+
+################################################################################
+### Head: Skel / Rule
+##
+
+skel_rule () {
+
+	##
+	## rules
+	##
+
+
+	##
+	## ## Link
+	##
+	## * https://wiki.archlinux.org/title/bspwm#Rules
+	##
+	## $ xprop | grep WM_CLASS
+	##
+	## $ xwininfo | grep 'Window id'
+	##
+
+
+	## floating
+	#bspc rule -a *:*:'ScreenGrab' state=floating sticky
+	#bspc rule -a *:*:'ScreenGrab' state=floating follow=on
+	bspc rule -a screengrab state=floating follow=on
+
+	bspc rule -a lxqt-config state=floating follow=on
+
+
+
+
+	## workspace 1
+	#bspc rule -a pcmanfm-qt desktop='^1' follow=on
+	#bspc rule -a Thunar desktop='^1' follow=on
+	#bspc rule -a Nautilus desktop='^1' follow=on
+	#bspc rule -a Pcmanfm desktop='^1' follow=on
+	#bspc rule -a Spacefm desktop='^1' follow=on
+
+	## workspace 2
+	#bspc rule -a Atom desktop='^2' follow=on
+	#bspc rule -a Mousepad desktop='^2' follow=on
+	#bspc rule -a Gedit desktop='^2' follow=on
+
+
+	## workspace 3
+	#bspc rule -a firefox desktop='^3' follow=on
+	#bspc rule -a Firefox desktop='^3' follow=on
+	#bspc rule -a Chromium-browser desktop='^3' follow=on
+	#bspc rule -a Chromium desktop='^3'
+	#bspc rule -a Google-chrome='^3' follow=on
+
+	## workspace 4
+	#bspc rule -a Sakura desktop='^4' follow=on
+	#bspc rule -a Xfce4-terminal desktop='^4' follow=on
+	#bspc rule -a Gnome-terminal desktop='^4' follow=on
+
+	## workspace 5
+	bspc rule -a *:*:'GNU Image Manipulation Program' desktop='^5' state=floating follow=on
+	#bspc rule -a Gimp-2.8 desktop='^5' state=floating follow=on
+	#bspc rule -a Gimp-2.8 desktop='^5' follow=on
+	#bspc rule -a Soffice desktop='^5' follow=on
+	#bspc rule -a Audacious desktop='^5' follow=on
+	#bspc rule -a mpv desktop='^5' follow=on
+	#bspc rule -a vlc desktop='^5' follow=on
+	#bspc rule -a smplayer desktop='^5' follow=on
+	#bspc rule -a mplayer2 state=floating
+	#bspc rule -a Kupfer.py focus=on
+	#bspc rule -a Screenkey manage=off
+
+}
+
+
+##
+### Tail: Skel / Rule
+################################################################################
+
+
+################################################################################
+### Head: Skel / Up
+##
+
+skel_up () {
+	PATH="$HOME/.config/bspwm/helper/bin:$PATH"
+
+	bspwm-up
+}
+
+##
+### Tail: Skel / Up
+################################################################################
+
+
+################################################################################
+### Head: Skel / Run
+##
+
+skel_run () {
+	skel_init
+	skel_theme
+	skel_rule
+	skel_up
+}
+
+##
+### Tail: Skel / Run
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+__main__ () {
+	skel_run
+}
+
+__main__
+
+##
+### Tail: Main
+################################################################################
