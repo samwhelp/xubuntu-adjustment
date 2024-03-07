@@ -8,25 +8,11 @@
 
 
 ##
-## ## Package / Window Manager / compiz
+## ## Package / Window Manager / xfwm4
 ##
 
-compiz
+xfwm4
 
-compiz-plugins
-compiz-plugins-default
-compiz-plugins-main
-compiz-plugins-extra
-
-compizconfig-settings-manager
-
-
-## compiz-gnome for gtk-window-decorator
-compiz-gnome
-
-
-#alsa-utils
-#brightnessctl
 
 
 
@@ -69,4 +55,4 @@ arc-theme
 breeze-gtk-theme
 breeze-icon-theme
 breeze-cursor-theme
-
+xfwm4-theme-breeze
