@@ -235,7 +235,7 @@ bindsym Mod1+Shift+c restart
 
 ## Logout
 ## Alt + Shift + x
-Mod1+Shift+x exec lxqt-leave --logout
+Mod1+Shift+x exec xfce4-session-logout --logout
 
 
 ## Shutdown
@@ -245,7 +245,7 @@ Mod1+Shift+x exec lxqt-leave --logout
 
 ## Shutdown
 ## Alt + Shift + z
-bindsym Mod1+Shift+z exec lxqt-leave
+bindsym Mod1+Shift+z exec xfce4-session-logout
 
 
 ##

@@ -41,14 +41,14 @@
 ## `Alt + Shift + z`
 ##
 alt + shift + z
-	lxqt-leave
+	xfce4-session-logout
 
 ##
 ## ## Logout
 ## `Alt + Shift + x`
 ##
 alt + shift + x
-	lxqt-leave --logout
+	xfce4-session-logout
 
 
 

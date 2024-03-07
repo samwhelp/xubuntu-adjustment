@@ -15,7 +15,7 @@
 				<enabled>true</enabled>
 				<name>Logout</name>
 			</startupnotify>
-			<command>lxqt-leave --logout</command>
+			<command>xfce4-session-logout</command>
 		</action>
 	</keybind>
 
@@ -48,7 +48,7 @@
 				<enabled>true</enabled>
 				<name>Leave</name>
 			</startupnotify>
-			<command>lxqt-leave</command>
+			<command>xfce4-session-logout</command>
 		</action>
 	</keybind>
 
@@ -60,7 +60,7 @@
 				<enabled>true</enabled>
 				<name>LockScreen</name>
 			</startupnotify>
-			<command>lxqt-leave --lockscreen</command>
+			<command>xfce4-session-logout</command>
 		</action>
 	</keybind>	
 
@@ -73,13 +73,13 @@
 run
 
 ``` sh
-lxqt-leave --help
+xfce4-session-logout --help
 ```
 
 show
 
 ```
-Usage: lxqt-leave [options]
+Usage: xfce4-session-logout [options]
 LXQt Leave
 
 Options:

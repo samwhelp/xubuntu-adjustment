@@ -60,7 +60,7 @@
 
 
 <theme>
-	<name>Lubuntu Arc</name>
+	<name>Numix</name>
 	<titleLayout>NLIMC</titleLayout>
 	<!--
 		available characters are NDSLIMC, each can occur at most once.
@@ -297,7 +297,7 @@
 				<enabled>true</enabled>
 				<name>Logout</name>
 			</startupnotify>
-			<command>lxqt-leave --logout</command>
+			<command>xfce4-session-logout</command>
 		</action>
 	</keybind>
 
@@ -323,7 +323,7 @@
 				<enabled>true</enabled>
 				<name>Leave</name>
 			</startupnotify>
-			<command>lxqt-leave</command>
+			<command>xfce4-session-logout</command>
 		</action>
 	</keybind>
 
@@ -335,7 +335,7 @@
 				<enabled>true</enabled>
 				<name>LockScreen</name>
 			</startupnotify>
-			<command>lxqt-leave --lockscreen</command>
+			<command>xfce4-session-logout</command>
 		</action>
 	</keybind>	
 
