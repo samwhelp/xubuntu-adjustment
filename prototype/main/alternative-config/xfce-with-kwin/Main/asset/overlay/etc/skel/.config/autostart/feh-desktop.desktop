@@ -2,7 +2,7 @@
 Categories=Utility;
 Comment=Feh Desktop (Only Wallpaper)
 Exec=feh --bg-fill --randomize /usr/share/xfce4/backdrops/
-#Exec=feh -bg-fill /usr/share/xfce4/backdrops/xubuntu-wallpaper.png
+#Exec=feh --bg-fill /usr/share/xfce4/backdrops/xubuntu-wallpaper.png
 GenericName=Feh Desktop
 Hidden=true
 Icon=picom
