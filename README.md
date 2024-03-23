@@ -33,3 +33,4 @@
 | ---- | ------ |
 | [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
 | [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
+| [Lubuntu Adjustment](https://samwhelp.github.io/lubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/lubuntu-adjustment) |
