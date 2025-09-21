@@ -8,6 +8,23 @@
 
 
 ##
+## ## Package / Theme
+##
+
+
+
+
+##
+## ## Package / Theme / Orchis
+##
+
+orchis-gtk-theme
+orchis-kde
+
+
+
+
+##
 ## ## Package / Tool
 ##
 
