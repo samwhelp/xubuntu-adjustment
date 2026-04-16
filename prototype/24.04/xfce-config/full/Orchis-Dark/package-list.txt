@@ -1,0 +1,75 @@
+
+
+##
+## # Xfce
+##
+
+
+
+
+##
+## ## Package / Theme
+##
+
+
+
+
+##
+## ## Package / Theme / Orchis
+##
+
+orchis-gtk-theme
+orchis-kde
+
+
+
+
+##
+## ## Package / Tool
+##
+
+
+
+
+##
+## ## Package / Tool / Launcher
+##
+
+rofi
+
+
+
+
+##
+## ## Package / Tool / Terminal
+##
+
+xfce4-terminal
+sakura
+
+
+
+
+##
+## ## Package / Tool / File Manager
+##
+
+thunar
+
+
+
+
+##
+## ## Package / Tool / Text Editor
+##
+
+mousepad
+
+
+
+
+##
+## ## Package / Tool / Image Viewer
+##
+
+viewnior
