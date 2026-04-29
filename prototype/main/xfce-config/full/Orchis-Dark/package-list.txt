@@ -25,6 +25,15 @@ orchis-kde
 
 
 ##
+## ## Package / Theme / Papirus
+##
+
+papirus-icon-theme
+
+
+
+
+##
 ## ## Package / Tool
 ##
 
