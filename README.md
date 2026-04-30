@@ -5,6 +5,8 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Xubuntu Adjustment](https://samwhelp.github.io/xubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/xubuntu-adjustment) |
+| [Xubuntu Note](https://samwhelp.github.io/note-about-xubuntu/) | [GitHub](https://github.com/samwhelp/note-about-xubuntu) |
+| [Ubuntu Note](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 
 
 
@@ -21,8 +23,14 @@
 
 | Script |
 | ------ |
-| [Xfce Config](https://github.com/samwhelp/xubuntu-adjustment/tree/main/prototype/main/xfce-config/full/Main) |
+| [Xubuntu Xfce Config](https://github.com/samwhelp/xubuntu-adjustment/tree/main/prototype/main/xfce-config/full/Main) |
 | [Tool Config](https://github.com/samwhelp/ubuntu-adjustment/tree/main/prototype/main/tool-config/part) |
+
+
+| Style Management |
+| ---------------- |
+| [make-xfce-style](https://github.com/samwhelp/make-xfce-style) |
+| [demo-style-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select) |
 
 
 
