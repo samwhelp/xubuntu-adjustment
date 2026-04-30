@@ -39,9 +39,11 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
-| [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
-| [Lubuntu Adjustment](https://samwhelp.github.io/lubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/lubuntu-adjustment) |
+| [Xfce Adjustment](https://samwhelp.github.io/xfce-adjustment/) | [GitHub](https://github.com/samwhelp/xfce-adjustment) |
+| [Debian Xfce Adjustment](https://samwhelp.github.io/debian-xfce-adjustment/) | [GitHub](https://github.com/samwhelp/debian-xfce-adjustment) |
+| [Fedora Xfce Adjustment](https://samwhelp.github.io/fedora-xfce-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-xfce-adjustment) |
+| [Archlinux Xfce Adjustment](https://samwhelp.github.io/archlinux-xfce-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-xfce-adjustment) |
+| [Voidlinux Xfce Adjustment](https://samwhelp.github.io/voidlinux-xfce-adjustment/) | [GitHub](https://github.com/samwhelp/voidlinux-xfce-adjustment) |
 
 
 
